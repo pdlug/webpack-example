@@ -57,6 +57,17 @@ change.
 * **build-dev** - development build with source maps and debug enabled (w/o any production level optimizations)
 * **watch** (*default*) - starts a webpack development server which will watch for changes and rebuild on demand
 
+## Example App
+
+It might be overkill but the sample app supplied is a backbone app implementing
+a photo gallery with an admin tool (functionality stubbed out). This demonstrates
+two entry points for the app: the end user facing homepage/photo pages and the
+admin tool. The webpack configuration builds separate JS files for each of these
+entry points and factors out the functionality they share into a common chunk
+file (`common.js`). Both the main app and admin templates include `common.js`
+along with their app specific code (`app.js` or `admin.js`).
+
+
 ## Highlights
 
 Various features of webpack are demonstrated including:
@@ -67,7 +78,7 @@ Various features of webpack are demonstrated including:
 
 ## Author
 
-Paul Dlug
+[Paul Dlug](http://pauldlug.com/), feel free to contact me with questions/feedback.
 
 
 ## Credits

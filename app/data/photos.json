@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Photo One",
+    "url": "http://placehold.it/800x800",
+    "thumbnailURL": "http://placehold.it/200x200"
+  },
+  {
+    "id": 2,
+    "name": "Photo Two",
+    "url": "http://placehold.it/800x800",
+    "thumbnailURL": "http://placehold.it/200x200"
+  },
+  {
+    "id": 3,
+    "name": "Photo Three",
+    "url": "http://placehold.it/800x800",
+    "thumbnailURL": "http://placehold.it/200x200"
+  },
+  {
+    "id": 4,
+    "name": "Photo Four",
+    "url": "http://placehold.it/800x800",
+    "thumbnailURL": "http://placehold.it/200x200"
+  }
+]

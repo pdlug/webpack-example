@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Photo Browser^Admin - for boring photos</title>
+    <meta name='description' content=''>
+    <meta name='viewport' content='user-scalable=no width=device-width, initial-scale=1.0 maximum-scale=1.0'>
+    <script>
+      // Hide the "no javascript" notice and replace the "no-js" class w/ "js" on the root
+      var jsNotice = document.getElementById('js-notice');
+      if (jsNotice) {
+        jsNotice.style.display = 'none';
+      }
+      if (document.documentElement.className) {
+        document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'') + ' js';
+      }
+    </script>
+    <script src="/javascripts/adminHead.js"></script>
+  </head>
+  <body>
+    <div id="header" class="row">
+      <div class="small-12 columns">
+        <div class="nav-bar right">
+          <ul class="button-group">
+            <li><a href="/admin" class="button">Admin</a></li>
+          </ul>
+        </div>
+
+        <h1><a href="/">Photo Browser</a><sup>Admin</sup> <small>for boring photos</small></h1>
+        <hr>
+      </div>
+    </div>
+
+    <!-- Show a notice if no JS is enabled, code in the head hides this if JS executes -->
+    <div id="js-notice">
+      Your browser does not have javascript enabled, nothing will work!
+    </div>
+
+    <div id="main">
+      <!-- Entry point for our app -->
+    </div>
+
+    <script src="/javascripts/common.js"></script>
+    <script src="/javascripts/admin.js"></script>
+  </body>
+</html>

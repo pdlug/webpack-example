@@ -1,0 +1,15 @@
+@import "settings";
+@import "foundation";
+
+#header {
+  h1 a {
+    color: #000;
+
+    &:link, &:visited, &:hover, &:active {
+      color: #000;
+    }
+  }
+}
+.js #js-notice {
+  display: none;
+}
